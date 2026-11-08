@@ -1,0 +1,669 @@
+{
+  "slug": "pontryagin-ode",
+  "title": "常微分方程（庞特里亚金）",
+  "subtitle": "数学与工程并重：从电路到振荡器",
+  "book": {
+    "title": "常微分方程",
+    "author": "庞特里亚金",
+    "source": [
+      "常微分方程 (庞特里亚金).pdf"
+    ]
+  },
+  "audience": "零基础到本科二年级，目标是吃透理论并会做题",
+  "goal": "系统掌握常微分方程的解法定课与理论基础",
+  "learningPath": [
+    {
+      "step": "01",
+      "title": "标准化",
+      "chapterIds": [
+        "ch01"
+      ],
+      "checkpoint": "能把三阶方程化为方程组"
+    },
+    {
+      "step": "02",
+      "title": "常系数：根与解",
+      "chapterIds": [
+        "ch02"
+      ],
+      "checkpoint": "写出重根解"
+    },
+    {
+      "step": "03",
+      "title": "常系数：稳定多项式与工程",
+      "chapterIds": [
+        "ch02"
+      ],
+      "checkpoint": "赫尔维茨判二阶"
+    },
+    {
+      "step": "04",
+      "title": "变系数与周期系数",
+      "chapterIds": [
+        "ch03"
+      ],
+      "checkpoint": "写出单值矩阵"
+    },
+    {
+      "step": "05",
+      "title": "存在性定理",
+      "chapterIds": [
+        "ch04"
+      ],
+      "checkpoint": "说出三种出口"
+    },
+    {
+      "step": "06",
+      "title": "稳定性与极限环",
+      "chapterIds": [
+        "ch05"
+      ],
+      "checkpoint": "解释振荡器"
+    },
+    {
+      "step": "07",
+      "title": "线性代数工具",
+      "chapterIds": [
+        "ch06"
+      ],
+      "checkpoint": "算 e^(At)"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "ch01",
+      "title": "第 1 章：引论",
+      "file": "chapters/ch01-引论.md",
+      "difficulty": 2
+    },
+    {
+      "id": "ch02",
+      "title": "第 2 章：常系数线性方程",
+      "file": "chapters/ch02-常系数线性方程.md",
+      "difficulty": 3
+    },
+    {
+      "id": "ch03",
+      "title": "第 3 章：变系数线性方程",
+      "file": "chapters/ch03-变系数线性方程.md",
+      "difficulty": 3
+    },
+    {
+      "id": "ch04",
+      "title": "第 4 章：存在性定理",
+      "file": "chapters/ch04-存在性定理.md",
+      "difficulty": 3
+    },
+    {
+      "id": "ch05",
+      "title": "第 5 章：稳定性",
+      "file": "chapters/ch05-稳定性.md",
+      "difficulty": 3
+    },
+    {
+      "id": "ch06",
+      "title": "第 6 章：线性代数",
+      "file": "chapters/ch06-线性代数.md",
+      "difficulty": 2
+    }
+  ],
+  "concepts": [
+    {
+      "id": "c01",
+      "title": "稳定多项式（赫尔维茨判据）",
+      "file": "concepts/c01-稳定多项式.md",
+      "chapterIds": [
+        "ch02",
+        "ch05"
+      ]
+    },
+    {
+      "id": "c02",
+      "title": "极限环与自激振荡",
+      "file": "concepts/c02-极限环与自激振荡.md",
+      "chapterIds": [
+        "ch05"
+      ]
+    },
+    {
+      "id": "c03",
+      "title": "矩阵指数",
+      "file": "concepts/c03-矩阵指数.md",
+      "chapterIds": [
+        "ch02",
+        "ch06"
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "term": "标准方程组",
+      "def": "ẋ=f(t,x) 形式的一阶方程组",
+      "chapterId": "ch01"
+    },
+    {
+      "term": "复值方程",
+      "def": "未知函数取复值的方程",
+      "chapterId": "ch01"
+    },
+    {
+      "term": "特征方程",
+      "def": "由常系数方程得到的代数方程",
+      "chapterId": "ch02"
+    },
+    {
+      "term": "单根",
+      "def": "特征方程的一重根",
+      "chapterId": "ch02"
+    },
+    {
+      "term": "重根",
+      "def": "特征方程的多重根",
+      "chapterId": "ch02"
+    },
+    {
+      "term": "稳定多项式",
+      "def": "所有根实部为负的多项式",
+      "chapterId": "ch02"
+    },
+    {
+      "term": "赫尔维茨判据",
+      "def": "用顺序主子式判稳",
+      "chapterId": "ch02"
+    },
+    {
+      "term": "消去法",
+      "def": "方程组消元化高阶方程",
+      "chapterId": "ch02"
+    },
+    {
+      "term": "复振幅法",
+      "def": "用 e^(iωt) 求稳态解",
+      "chapterId": "ch02"
+    },
+    {
+      "term": "RLC 电路",
+      "def": "电感电阻电容串联回路",
+      "chapterId": "ch02"
+    },
+    {
+      "term": "相平面",
+      "def": "二阶系统的状态平面",
+      "chapterId": "ch02"
+    },
+    {
+      "term": "基解矩阵",
+      "def": "线性无关解组成的矩阵",
+      "chapterId": "ch03"
+    },
+    {
+      "term": "单值矩阵",
+      "def": "周期系统走一圈的演化",
+      "chapterId": "ch03"
+    },
+    {
+      "term": "乘子",
+      "def": "单值矩阵的特征值",
+      "chapterId": "ch03"
+    },
+    {
+      "term": "降阶法",
+      "def": "已知特解后降低方程阶数",
+      "chapterId": "ch03"
+    },
+    {
+      "term": "迭代",
+      "def": "皮卡逐次逼近",
+      "chapterId": "ch04"
+    },
+    {
+      "term": "首次积分",
+      "def": "沿轨线取常数的函数",
+      "chapterId": "ch04"
+    },
+    {
+      "term": "最大时间区间",
+      "def": "解能延伸到的最大区间",
+      "chapterId": "ch04"
+    },
+    {
+      "term": "爆破",
+      "def": "解在有限时间趋于无穷",
+      "chapterId": "ch04"
+    },
+    {
+      "term": "李雅普诺夫稳定",
+      "def": "初值近则轨线不跑远",
+      "chapterId": "ch05"
+    },
+    {
+      "term": "渐近稳定",
+      "def": "稳定且趋于平衡点",
+      "chapterId": "ch05"
+    },
+    {
+      "term": "离心调速器",
+      "def": "瓦特式转速调节装置",
+      "chapterId": "ch05"
+    },
+    {
+      "term": "极限环",
+      "def": "孤立的闭轨",
+      "chapterId": "ch05"
+    },
+    {
+      "term": "电子管振荡器",
+      "def": "自激振荡电路",
+      "chapterId": "ch05"
+    },
+    {
+      "term": "庞加莱映射",
+      "def": "绕一圈的首次回归映射",
+      "chapterId": "ch05"
+    },
+    {
+      "term": "最小零化多项式",
+      "def": "使 p(A)=0 的最低次首一多项式",
+      "chapterId": "ch06"
+    },
+    {
+      "term": "矩阵函数",
+      "def": "用谱插值定义的 f(A)",
+      "chapterId": "ch06"
+    },
+    {
+      "term": "若尔当形",
+      "def": "矩阵的标准分块形式",
+      "chapterId": "ch06"
+    },
+    {
+      "term": "广义特征向量",
+      "def": "若尔当链上的向量",
+      "chapterId": "ch06"
+    }
+  ],
+  "patterns": {
+    "file": "patterns.md"
+  },
+  "cheatsheet": {
+    "file": "cheatsheet.md"
+  },
+  "quizzes": [
+    {
+      "id": "q01",
+      "chapterId": "ch01",
+      "type": "single",
+      "question": "三阶方程化为标准方程组需要几个分量？",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 2,
+      "explain": "每个低阶导数一个分量。"
+    },
+    {
+      "id": "q02",
+      "chapterId": "ch01",
+      "type": "single",
+      "question": "复方程 ż=iz 对应的实系统是？",
+      "options": [
+        "ẋ=−y, ẏ=x",
+        "ẋ=y, ẏ=x",
+        "ẋ=x, ẏ=−y",
+        "ẋ=−x, ẏ=−y"
+      ],
+      "answer": 0,
+      "explain": "iz=−y+ix。"
+    },
+    {
+      "id": "q03",
+      "chapterId": "ch02",
+      "type": "single",
+      "question": "λ=−2 是二重根，通解中会出现？",
+      "options": [
+        "只有 e^(−2t)",
+        "e^(−2t) 与 t e^(−2t)",
+        "cos 2t",
+        "e^(2t)"
+      ],
+      "answer": 1,
+      "explain": "重根给 t 的幂。"
+    },
+    {
+      "id": "q04",
+      "chapterId": "ch02",
+      "type": "single",
+      "question": "二阶方程 λ²+aλ+b 稳定的条件？",
+      "options": [
+        "a>0",
+        "b>0",
+        "a>0 且 b>0",
+        "a<0"
+      ],
+      "answer": 2,
+      "explain": "赫尔维茨判据。"
+    },
+    {
+      "id": "q05",
+      "chapterId": "ch02",
+      "type": "single",
+      "question": "三阶稳定的附加不等式是？",
+      "options": [
+        "ab>c",
+        "ab<c",
+        "a>c",
+        "b>c"
+      ],
+      "answer": 0,
+      "explain": "只靠系数全正不够。"
+    },
+    {
+      "id": "q06",
+      "chapterId": "ch02",
+      "type": "single",
+      "question": "复振幅法的核心方程？",
+      "options": [
+        "(A−iωI)u=−b",
+        "(A+iωI)u=b",
+        "Au=0",
+        "(A−ωI)u=b"
+      ],
+      "answer": 0,
+      "explain": "设 x=u e^(iωt) 代入。"
+    },
+    {
+      "id": "q07",
+      "chapterId": "ch03",
+      "type": "single",
+      "question": "变系数系统为什么没有「特征值」可用？",
+      "options": [
+        "A 不可逆",
+        "A(t) 随 t 变",
+        "没有基解矩阵",
+        "解不存在"
+      ],
+      "answer": 1,
+      "explain": "只有常矩阵才有固定谱。"
+    },
+    {
+      "id": "q08",
+      "chapterId": "ch03",
+      "type": "single",
+      "question": "周期系数判稳用什么？",
+      "options": [
+        "平均矩阵",
+        "单值矩阵的乘子",
+        "特征多项式",
+        "李雅普诺夫函数"
+      ],
+      "answer": 1,
+      "explain": "Φ(t+T)=Φ(t)M。"
+    },
+    {
+      "id": "q09",
+      "chapterId": "ch04",
+      "type": "single",
+      "question": "最大区间的三种出口不含？",
+      "options": [
+        "到边界",
+        "有限时间爆破",
+        "延伸到无穷",
+        "跳到另一支"
+      ],
+      "answer": 3,
+      "explain": "连续性保证不会跳支。"
+    },
+    {
+      "id": "q10",
+      "chapterId": "ch04",
+      "type": "single",
+      "question": "ẋ=x²，x(0)=1 的最大区间是？",
+      "options": [
+        "R",
+        "(0,1)",
+        "(−∞,1)",
+        "(1,+∞)"
+      ],
+      "answer": 2,
+      "explain": "解 1/(1−t) 在 t=1 爆破。"
+    },
+    {
+      "id": "q11",
+      "chapterId": "ch05",
+      "type": "single",
+      "question": "第二方法判稳定（非渐近）的条件？",
+      "options": [
+        "V 正定, V̇ 负半定",
+        "V 正定, V̇ 负定",
+        "V 负定",
+        "V̇>0"
+      ],
+      "answer": 0,
+      "explain": "负半定只给稳定。"
+    },
+    {
+      "id": "q12",
+      "chapterId": "ch05",
+      "type": "single",
+      "question": "电子管振荡器的数学机制是？",
+      "options": [
+        "平衡点失稳 + 稳定极限环",
+        "平衡点稳定",
+        "无平衡点",
+        "线性共振"
+      ],
+      "answer": 0,
+      "explain": "轨线被极限环捕获。"
+    },
+    {
+      "id": "q13",
+      "chapterId": "ch05",
+      "type": "single",
+      "question": "极限环稳定性的判据？",
+      "options": [
+        "庞加莱映射导数绝对值<1",
+        "特征值实部<0",
+        "V̇<0",
+        "李雅普诺夫指数>0"
+      ],
+      "answer": 0,
+      "explain": "绕一圈的放大率。"
+    },
+    {
+      "id": "q14",
+      "chapterId": "ch06",
+      "type": "single",
+      "question": "矩阵可对角化的最小多项式条件？",
+      "options": [
+        "无重根",
+        "次数等于阶数",
+        "等于特征多项式",
+        "常数项为 1"
+      ],
+      "answer": 0,
+      "explain": "无重根 ⇔ 几何重数等于代数重数。"
+    },
+    {
+      "id": "q15",
+      "chapterId": "ch06",
+      "type": "single",
+      "question": "A=[[0,1],[0,0]] 的 e^(At)？",
+      "options": [
+        "I",
+        "[[1,t],[0,1]]",
+        "[[e^t,0],[0,1]]",
+        "[[0,1],[0,0]]"
+      ],
+      "answer": 1,
+      "explain": "幂零部分，指数展开两项。"
+    },
+    {
+      "id": "q16",
+      "chapterId": "__all",
+      "type": "single",
+      "question": "本书把电路与振荡器放进教材的主要理由是？",
+      "options": [
+        "增加趣味",
+        "说明稳定性决定工程可用性",
+        "减少证明",
+        "替代理论"
+      ],
+      "answer": 1,
+      "explain": "作者在前言明确说明。"
+    },
+    {
+      "id": "q17",
+      "chapterId": "__all",
+      "type": "single",
+      "question": "常系数与变系数理论的关键分界是？",
+      "options": [
+        "是否有基解矩阵",
+        "是否有固定特征值",
+        "是否可积",
+        "是否线性"
+      ],
+      "answer": 1,
+      "explain": "变系数没有固定谱，判稳要靠乘子或 V。"
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f01",
+      "chapterId": "ch01",
+      "front": "标准方程组的定义？",
+      "back": "ẋ=f(t,x)，一阶向量方程。",
+      "tags": [
+        "定义"
+      ]
+    },
+    {
+      "id": "f02",
+      "chapterId": "ch02",
+      "front": "重根为什么产生 t 的幂？",
+      "back": "若尔当块/共振。",
+      "tags": [
+        "理解"
+      ]
+    },
+    {
+      "id": "f03",
+      "chapterId": "ch02",
+      "front": "赫尔维茨三阶条件？",
+      "back": "a>0, c>0, ab>c。",
+      "tags": [
+        "公式"
+      ]
+    },
+    {
+      "id": "f04",
+      "chapterId": "ch02",
+      "front": "复振幅法怎么用？",
+      "back": "设 u e^(iωt)，解 (A−iωI)u=−b。",
+      "tags": [
+        "方法"
+      ]
+    },
+    {
+      "id": "f05",
+      "chapterId": "ch02",
+      "front": "RLC 与弹簧系统为何同构？",
+      "back": "同一个二阶线性方程。",
+      "tags": [
+        "应用"
+      ]
+    },
+    {
+      "id": "f06",
+      "chapterId": "ch03",
+      "front": "周期系数判稳看什么？",
+      "back": "单值矩阵的乘子模。",
+      "tags": [
+        "判据"
+      ]
+    },
+    {
+      "id": "f07",
+      "chapterId": "ch03",
+      "front": "降阶法的前提？",
+      "back": "已知一个非零特解。",
+      "tags": [
+        "方法"
+      ]
+    },
+    {
+      "id": "f08",
+      "chapterId": "ch04",
+      "front": "最大区间三种出口？",
+      "back": "到边界、爆破、到无穷。",
+      "tags": [
+        "结论"
+      ]
+    },
+    {
+      "id": "f09",
+      "chapterId": "ch04",
+      "front": "首次积分有几个独立？",
+      "back": "n−1。",
+      "tags": [
+        "结论"
+      ]
+    },
+    {
+      "id": "f10",
+      "chapterId": "ch05",
+      "front": "极限环存在判据？",
+      "back": "平面 + 捕获域 + 无平衡点。",
+      "tags": [
+        "定理"
+      ]
+    },
+    {
+      "id": "f11",
+      "chapterId": "ch05",
+      "front": "振荡器的机制？",
+      "back": "平衡点失稳，轨线入极限环。",
+      "tags": [
+        "应用"
+      ]
+    },
+    {
+      "id": "f12",
+      "chapterId": "ch05",
+      "front": "周期解稳定性判据？",
+      "back": "庞加莱映射导数 <1。",
+      "tags": [
+        "判据"
+      ]
+    },
+    {
+      "id": "f13",
+      "chapterId": "ch06",
+      "front": "最小多项式的作用？",
+      "back": "判可对角化。",
+      "tags": [
+        "工具"
+      ]
+    },
+    {
+      "id": "f14",
+      "chapterId": "ch06",
+      "front": "若尔当块大小由什么决定？",
+      "back": "广义特征向量链长。",
+      "tags": [
+        "工具"
+      ]
+    },
+    {
+      "id": "f15",
+      "chapterId": "ch06",
+      "front": "e^(At) 一定可逆吗？",
+      "back": "是，det=e^(tr A t)。",
+      "tags": [
+        "性质"
+      ]
+    }
+  ],
+  "companion": "pontryagin-ode学习伴侣.html"
+}

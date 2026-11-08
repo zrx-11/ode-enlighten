@@ -1,0 +1,757 @@
+{
+  "slug": "arnold-ode",
+  "title": "常微分方程（阿诺尔德）",
+  "subtitle": "几何视角：相流、向量场与奇点指数",
+  "book": {
+    "title": "常微分方程",
+    "author": "阿诺尔德",
+    "source": [
+      "常微分方程 (阿诺尔德).pdf"
+    ]
+  },
+  "audience": "零基础到本科二年级，目标是吃透理论并会做题",
+  "goal": "系统掌握常微分方程的解法定课与理论基础",
+  "learningPath": [
+    {
+      "step": "01",
+      "title": "相空间与相流",
+      "chapterIds": [
+        "ch01"
+      ],
+      "checkpoint": "说清单摆为何在柱面"
+    },
+    {
+      "step": "02",
+      "title": "常点与首次积分",
+      "chapterIds": [
+        "ch02"
+      ],
+      "checkpoint": "用流箱解释局部结构"
+    },
+    {
+      "step": "03",
+      "title": "线性系统与算子指数",
+      "chapterIds": [
+        "ch03"
+      ],
+      "checkpoint": "分类一个 2×2 系统"
+    },
+    {
+      "step": "04",
+      "title": "稳定性",
+      "chapterIds": [
+        "ch04"
+      ],
+      "checkpoint": "说出临界情形的困难"
+    },
+    {
+      "step": "05",
+      "title": "周期系数",
+      "chapterIds": [
+        "ch05"
+      ],
+      "checkpoint": "用乘子判稳"
+    },
+    {
+      "step": "06",
+      "title": "存在唯一性",
+      "chapterIds": [
+        "ch06"
+      ],
+      "checkpoint": "用压缩映射证明"
+    },
+    {
+      "step": "07",
+      "title": "流形与奇点指数",
+      "chapterIds": [
+        "ch07"
+      ],
+      "checkpoint": "算鞍点指数"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "ch01",
+      "title": "第 1 章：相空间与相流",
+      "file": "chapters/ch01-相空间与相流.md",
+      "difficulty": 2
+    },
+    {
+      "id": "ch02",
+      "title": "第 2 章：常点附近的向量场与首次积分",
+      "file": "chapters/ch02-常点与首次积分.md",
+      "difficulty": 3
+    },
+    {
+      "id": "ch03",
+      "title": "第 3 章：线性系统与算子指数",
+      "file": "chapters/ch03-线性系统与算子指数.md",
+      "difficulty": 3
+    },
+    {
+      "id": "ch04",
+      "title": "第 4 章：平衡位置的稳定性",
+      "file": "chapters/ch04-稳定性.md",
+      "difficulty": 3
+    },
+    {
+      "id": "ch05",
+      "title": "第 5 章：周期系数系统与常数变易",
+      "file": "chapters/ch05-周期系数与常数变易.md",
+      "difficulty": 3
+    },
+    {
+      "id": "ch06",
+      "title": "第 6 章：存在、唯一与可微性定理",
+      "file": "chapters/ch06-存在唯一性.md",
+      "difficulty": 3
+    },
+    {
+      "id": "ch07",
+      "title": "第 7 章：流形、切丛与奇点指数",
+      "file": "chapters/ch07-流形与奇点指数.md",
+      "difficulty": 3
+    }
+  ],
+  "concepts": [
+    {
+      "id": "c01",
+      "title": "相流与流箱",
+      "file": "concepts/c01-相流与流箱.md",
+      "chapterIds": [
+        "ch01",
+        "ch02"
+      ]
+    },
+    {
+      "id": "c02",
+      "title": "首次积分与保守系统",
+      "file": "concepts/c02-首次积分与保守系统.md",
+      "chapterIds": [
+        "ch02"
+      ]
+    },
+    {
+      "id": "c03",
+      "title": "向量场奇点的指数",
+      "file": "concepts/c03-奇点指数.md",
+      "chapterIds": [
+        "ch07"
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "term": "确定过程",
+      "def": "现在决定过去与未来",
+      "chapterId": "ch01"
+    },
+    {
+      "term": "相空间",
+      "def": "所有可能状态的集合",
+      "chapterId": "ch01"
+    },
+    {
+      "term": "相流",
+      "def": "状态随时间的单参数变换群",
+      "chapterId": "ch01"
+    },
+    {
+      "term": "相速度场",
+      "def": "流的无穷小生成元（向量场）",
+      "chapterId": "ch01"
+    },
+    {
+      "term": "扩张相空间",
+      "def": "R×M，含时间的空间",
+      "chapterId": "ch01"
+    },
+    {
+      "term": "积分曲线",
+      "def": "扩张相空间中的解曲线",
+      "chapterId": "ch01"
+    },
+    {
+      "term": "微分同胚",
+      "def": "可微且逆也可微的双射",
+      "chapterId": "ch01"
+    },
+    {
+      "term": "平衡位置",
+      "def": "向量场为零的点",
+      "chapterId": "ch01"
+    },
+    {
+      "term": "流箱",
+      "def": "把常点附近拉直的坐标",
+      "chapterId": "ch02"
+    },
+    {
+      "term": "非自治方程",
+      "def": "右端显含时间的方程",
+      "chapterId": "ch02"
+    },
+    {
+      "term": "相曲线",
+      "def": "相空间中的轨线",
+      "chapterId": "ch02"
+    },
+    {
+      "term": "方向导数",
+      "def": "沿向量场的变化率",
+      "chapterId": "ch02"
+    },
+    {
+      "term": "首次积分",
+      "def": "沿轨线取常数的函数",
+      "chapterId": "ch02"
+    },
+    {
+      "term": "保守系统",
+      "def": "存在能量守恒的系统",
+      "chapterId": "ch02"
+    },
+    {
+      "term": "等能线",
+      "def": "能量相同的点的集合",
+      "chapterId": "ch02"
+    },
+    {
+      "term": "算子指数",
+      "def": "由级数定义的 e^(At)",
+      "chapterId": "ch03"
+    },
+    {
+      "term": "可对角化",
+      "def": "有足够多线性无关特征向量",
+      "chapterId": "ch03"
+    },
+    {
+      "term": "若尔当标准形",
+      "def": "矩阵的标准分块形式",
+      "chapterId": "ch03"
+    },
+    {
+      "term": "结点",
+      "def": "两特征方向都指向/背离的奇点",
+      "chapterId": "ch03"
+    },
+    {
+      "term": "鞍点",
+      "def": "一进一出的奇点",
+      "chapterId": "ch03"
+    },
+    {
+      "term": "焦点",
+      "def": "螺旋进出的奇点",
+      "chapterId": "ch03"
+    },
+    {
+      "term": "中心",
+      "def": "闭合轨线围成的奇点",
+      "chapterId": "ch03"
+    },
+    {
+      "term": "拓扑分类",
+      "def": "按相图同胚型分类",
+      "chapterId": "ch03"
+    },
+    {
+      "term": "稳定多项式",
+      "def": "所有根实部为负的多项式",
+      "chapterId": "ch04"
+    },
+    {
+      "term": "临界情形",
+      "def": "特征值有零实部",
+      "chapterId": "ch04"
+    },
+    {
+      "term": "双曲平衡点",
+      "def": "特征值实部全不为零",
+      "chapterId": "ch04"
+    },
+    {
+      "term": "单值矩阵",
+      "def": "周期系统走一圈的演化",
+      "chapterId": "ch05"
+    },
+    {
+      "term": "乘子",
+      "def": "单值矩阵的特征值",
+      "chapterId": "ch05"
+    },
+    {
+      "term": "弗洛凯指数",
+      "def": "乘子的对数除以周期",
+      "chapterId": "ch05"
+    },
+    {
+      "term": "参数共振",
+      "def": "周期激励导致指数增长",
+      "chapterId": "ch05"
+    },
+    {
+      "term": "常数变易",
+      "def": "用基解矩阵构造非齐次解",
+      "chapterId": "ch05"
+    },
+    {
+      "term": "压缩映射",
+      "def": "距离严格缩短的映射",
+      "chapterId": "ch06"
+    },
+    {
+      "term": "完备度量空间",
+      "def": "柯西列都收敛的空间",
+      "chapterId": "ch06"
+    },
+    {
+      "term": "不动点",
+      "def": "T(x)=x 的点",
+      "chapterId": "ch06"
+    },
+    {
+      "term": "变分方程",
+      "def": "Φ′=f_yΦ",
+      "chapterId": "ch06"
+    },
+    {
+      "term": "微分流形",
+      "def": "局部像 Rⁿ 的空间",
+      "chapterId": "ch07"
+    },
+    {
+      "term": "切空间",
+      "def": "一点处所有切向量",
+      "chapterId": "ch07"
+    },
+    {
+      "term": "切丛",
+      "def": "所有切空间的并",
+      "chapterId": "ch07"
+    },
+    {
+      "term": "截面",
+      "def": "每点取一个切向量的映射",
+      "chapterId": "ch07"
+    },
+    {
+      "term": "奇点指数",
+      "def": "绕奇点一圈的方向净转角",
+      "chapterId": "ch07"
+    }
+  ],
+  "patterns": {
+    "file": "patterns.md"
+  },
+  "cheatsheet": {
+    "file": "cheatsheet.md"
+  },
+  "quizzes": [
+    {
+      "id": "q01",
+      "chapterId": "ch01",
+      "type": "single",
+      "question": "动力系统的三个限定词是？",
+      "options": [
+        "连续、有界、可微",
+        "确定、有限维、可微",
+        "线性、自治、光滑",
+        "存在、唯一、稳定"
+      ],
+      "answer": 1,
+      "explain": "见 §1.1。"
+    },
+    {
+      "id": "q02",
+      "chapterId": "ch01",
+      "type": "single",
+      "question": "单摆的相空间是？",
+      "options": [
+        "平面",
+        "柱面",
+        "球面",
+        "环面"
+      ],
+      "answer": 1,
+      "explain": "角度 mod 2π。"
+    },
+    {
+      "id": "q03",
+      "chapterId": "ch02",
+      "type": "single",
+      "question": "流箱定理的条件是？",
+      "options": [
+        "v=0",
+        "v≠0",
+        "v 有界",
+        "v 光滑"
+      ],
+      "answer": 1,
+      "explain": "只在常点可拉直。"
+    },
+    {
+      "id": "q04",
+      "chapterId": "ch02",
+      "type": "single",
+      "question": "非自治系统化为自治的方法？",
+      "options": [
+        "降维",
+        "加时间坐标",
+        "线性化",
+        "取平均"
+      ],
+      "answer": 1,
+      "explain": "令 x₀=t，ẋ₀=1。"
+    },
+    {
+      "id": "q05",
+      "chapterId": "ch03",
+      "type": "single",
+      "question": "det e^(At) 等于？",
+      "options": [
+        "1",
+        "e^(t tr A)",
+        "det A",
+        "e^(t det A)"
+      ],
+      "answer": 1,
+      "explain": "刘维尔公式。"
+    },
+    {
+      "id": "q06",
+      "chapterId": "ch03",
+      "type": "single",
+      "question": "迹为零意味着相流？",
+      "options": [
+        "保面积",
+        "保体积",
+        "收缩",
+        "发散"
+      ],
+      "answer": 0,
+      "explain": "det=1。"
+    },
+    {
+      "id": "q07",
+      "chapterId": "ch03",
+      "type": "single",
+      "question": "纯虚特征值对应？",
+      "options": [
+        "结点",
+        "鞍点",
+        "焦点",
+        "中心"
+      ],
+      "answer": 3,
+      "explain": "闭合圆轨线。"
+    },
+    {
+      "id": "q08",
+      "chapterId": "ch04",
+      "type": "single",
+      "question": "线性化能判稳的条件？",
+      "options": [
+        "实部全负",
+        "双曲",
+        "迹为零",
+        "行列式为正"
+      ],
+      "answer": 1,
+      "explain": "非双曲即临界。"
+    },
+    {
+      "id": "q09",
+      "chapterId": "ch04",
+      "type": "single",
+      "question": "零实部加若尔当块会怎样？",
+      "options": [
+        "指数衰减",
+        "有界振荡",
+        "多项式增长",
+        "趋于零"
+      ],
+      "answer": 2,
+      "explain": "t^k 因子。"
+    },
+    {
+      "id": "q10",
+      "chapterId": "ch04",
+      "type": "single",
+      "question": "临界情形为何不能靠线性化？",
+      "options": [
+        "计算太复杂",
+        "非线性扰动可改变类型",
+        "方程无解",
+        "参数不确定"
+      ],
+      "answer": 1,
+      "explain": "中心可被扰动成焦点。"
+    },
+    {
+      "id": "q11",
+      "chapterId": "ch05",
+      "type": "single",
+      "question": "单值矩阵的定义？",
+      "options": [
+        "Φ(0)",
+        "Φ(T)",
+        "A(T)",
+        "det Φ(T)"
+      ],
+      "answer": 1,
+      "explain": "走一个周期的演化。"
+    },
+    {
+      "id": "q12",
+      "chapterId": "ch05",
+      "type": "single",
+      "question": "参数共振的数学表现？",
+      "options": [
+        "乘子模越过 1",
+        "特征值为零",
+        "迹为零",
+        "行列式为负"
+      ],
+      "answer": 0,
+      "explain": "振幅指数增长。"
+    },
+    {
+      "id": "q13",
+      "chapterId": "ch06",
+      "type": "single",
+      "question": "压缩映射原理要求？",
+      "options": [
+        "完备 + q<1",
+        "连续 + 有界",
+        "线性 + 可逆",
+        "紧 + 自伴"
+      ],
+      "answer": 0,
+      "explain": "缺一不可。"
+    },
+    {
+      "id": "q14",
+      "chapterId": "ch06",
+      "type": "single",
+      "question": "取 h<1/L 的目的？",
+      "options": [
+        "保证 f 有界",
+        "使积分算子成为压缩",
+        "保证解唯一",
+        "简化记号"
+      ],
+      "answer": 1,
+      "explain": "压缩因子 Lh<1。"
+    },
+    {
+      "id": "q15",
+      "chapterId": "ch07",
+      "type": "single",
+      "question": "向量场在流形上的严格定义？",
+      "options": [
+        "切丛的截面",
+        "光滑函数",
+        "坐标映射",
+        "微分形式"
+      ],
+      "answer": 0,
+      "explain": "v(x)∈T_xM。"
+    },
+    {
+      "id": "q16",
+      "chapterId": "ch07",
+      "type": "single",
+      "question": "鞍点的指数？",
+      "options": [
+        "+1",
+        "0",
+        "−1",
+        "−2"
+      ],
+      "answer": 2,
+      "explain": "方向净转角为负。"
+    },
+    {
+      "id": "q17",
+      "chapterId": "ch07",
+      "type": "single",
+      "question": "球面上向量场总指数？",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "取决于场"
+      ],
+      "answer": 2,
+      "explain": "毛球定理。"
+    },
+    {
+      "id": "q18",
+      "chapterId": "__all",
+      "type": "single",
+      "question": "阿诺尔德把相空间选择放在首位的理由是？",
+      "options": [
+        "便于计算",
+        "相空间由物理约束决定，选错会误判轨线",
+        "节省篇幅",
+        "历史传统"
+      ],
+      "answer": 1,
+      "explain": "单摆柱面是典型例子。"
+    },
+    {
+      "id": "q19",
+      "chapterId": "__all",
+      "type": "single",
+      "question": "代数分类与拓扑分类的差别在于？",
+      "options": [
+        "前者更精确",
+        "后者更粗但更本质",
+        "两者等价",
+        "后者只在平面有效"
+      ],
+      "answer": 1,
+      "explain": "结点与焦点可同胚。"
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f01",
+      "chapterId": "ch01",
+      "front": "相流的群性质？",
+      "back": "φ⁰=id，φ^(s+t)=φˢ∘φᵗ。",
+      "tags": [
+        "定义"
+      ]
+    },
+    {
+      "id": "f02",
+      "chapterId": "ch01",
+      "front": "相速度场怎么来？",
+      "back": "流的 t=0 处时间导数。",
+      "tags": [
+        "定义"
+      ]
+    },
+    {
+      "id": "f03",
+      "chapterId": "ch02",
+      "front": "流箱做了什么？",
+      "back": "把常点处向量场拉直成 ∂/∂x₁。",
+      "tags": [
+        "方法"
+      ]
+    },
+    {
+      "id": "f04",
+      "chapterId": "ch02",
+      "front": "非自治如何变自治？",
+      "back": "加时间坐标，维数 +1。",
+      "tags": [
+        "方法"
+      ]
+    },
+    {
+      "id": "f05",
+      "chapterId": "ch02",
+      "front": "保守系统相曲线？",
+      "back": "等能线。",
+      "tags": [
+        "结论"
+      ]
+    },
+    {
+      "id": "f06",
+      "chapterId": "ch03",
+      "front": "e^(At) 的行列式？",
+      "back": "e^(t tr A)。",
+      "tags": [
+        "公式"
+      ]
+    },
+    {
+      "id": "f07",
+      "chapterId": "ch03",
+      "front": "中心与焦点的区别？",
+      "back": "闭合 vs 螺旋。",
+      "tags": [
+        "分类"
+      ]
+    },
+    {
+      "id": "f08",
+      "chapterId": "ch04",
+      "front": "双曲的定义？",
+      "back": "特征值实部全不为零。",
+      "tags": [
+        "定义"
+      ]
+    },
+    {
+      "id": "f09",
+      "chapterId": "ch04",
+      "front": "临界情形怎么办？",
+      "back": "找守恒量或李雅普诺夫函数。",
+      "tags": [
+        "方法"
+      ]
+    },
+    {
+      "id": "f10",
+      "chapterId": "ch05",
+      "front": "乘子与指数关系？",
+      "back": "ρ=e^(μT)。",
+      "tags": [
+        "公式"
+      ]
+    },
+    {
+      "id": "f11",
+      "chapterId": "ch05",
+      "front": "参数共振的舌区？",
+      "back": "频率成 2:1 附近有带宽。",
+      "tags": [
+        "现象"
+      ]
+    },
+    {
+      "id": "f12",
+      "chapterId": "ch06",
+      "front": "压缩映射结论？",
+      "back": "唯一不动点 + 迭代收敛。",
+      "tags": [
+        "定理"
+      ]
+    },
+    {
+      "id": "f13",
+      "chapterId": "ch06",
+      "front": "为什么需要完备性？",
+      "back": "柯西列要收敛到空间内的点。",
+      "tags": [
+        "理解"
+      ]
+    },
+    {
+      "id": "f14",
+      "chapterId": "ch07",
+      "front": "切丛定义？",
+      "back": "TM=∪T_xM。",
+      "tags": [
+        "定义"
+      ]
+    },
+    {
+      "id": "f15",
+      "chapterId": "ch07",
+      "front": "指数可加性的用途？",
+      "back": "由边界绕数算内部奇点总指数。",
+      "tags": [
+        "应用"
+      ]
+    }
+  ],
+  "companion": "arnold-ode学习伴侣.html"
+}

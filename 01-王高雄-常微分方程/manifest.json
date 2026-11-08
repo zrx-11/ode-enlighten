@@ -1,0 +1,1051 @@
+{
+  "slug": "wanggaoxiong-ode",
+  "title": "常微分方程（王高雄·第四版）",
+  "subtitle": "解法定课 + 存在唯一性 + 稳定性，两条主线",
+  "book": {
+    "title": "常微分方程（第四版）",
+    "author": "王高雄、周之铭、朱思铭、王寿松 编；朱思铭等修订",
+    "source": [
+      "常微分方程 （第四版） (王高雄,周之铭,朱思铭,王寿松).pdf"
+    ]
+  },
+  "audience": "零基础到本科二年级，目标是吃透理论并会做题",
+  "goal": "系统掌握常微分方程的解法定课与理论基础",
+  "learningPath": [
+    {
+      "step": "01",
+      "title": "基本概念与模型",
+      "chapterIds": [
+        "ch01"
+      ],
+      "checkpoint": "做完 ch01 自测 4 题"
+    },
+    {
+      "step": "02",
+      "title": "一阶初等解法",
+      "chapterIds": [
+        "ch02"
+      ],
+      "checkpoint": "四类方程各解一题"
+    },
+    {
+      "step": "03",
+      "title": "存在唯一性",
+      "chapterIds": [
+        "ch03"
+      ],
+      "checkpoint": "能独立写出皮卡证明骨架"
+    },
+    {
+      "step": "04",
+      "title": "高阶线性方程",
+      "chapterIds": [
+        "ch04"
+      ],
+      "checkpoint": "特征根三种情形全对"
+    },
+    {
+      "step": "05",
+      "title": "线性方程组",
+      "chapterIds": [
+        "ch05"
+      ],
+      "checkpoint": "手算一个 3×3 的 e^(At)"
+    },
+    {
+      "step": "06",
+      "title": "非线性与稳定性",
+      "chapterIds": [
+        "ch06"
+      ],
+      "checkpoint": "能按迹与行列式分类奇点"
+    },
+    {
+      "step": "07",
+      "title": "一阶线性 PDE",
+      "chapterIds": [
+        "ch07"
+      ],
+      "checkpoint": "用特征线法解一个柯西问题"
+    },
+    {
+      "step": "08",
+      "title": "边值问题",
+      "chapterIds": [
+        "ch08"
+      ],
+      "checkpoint": "构造一个格林函数"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "ch01",
+      "title": "第 1 章：绪论",
+      "file": "chapters/ch01-绪论.md",
+      "difficulty": 1
+    },
+    {
+      "id": "ch02",
+      "title": "第 2 章：一阶方程的初等解法",
+      "file": "chapters/ch02-一阶方程初等解法.md",
+      "difficulty": 2
+    },
+    {
+      "id": "ch03",
+      "title": "第 3 章：解的存在唯一性",
+      "file": "chapters/ch03-解的存在唯一性.md",
+      "difficulty": 3
+    },
+    {
+      "id": "ch04",
+      "title": "第 4 章：高阶线性微分方程",
+      "file": "chapters/ch04-高阶线性方程.md",
+      "difficulty": 2
+    },
+    {
+      "id": "ch05",
+      "title": "第 5 章：线性微分方程组",
+      "file": "chapters/ch05-线性微分方程组.md",
+      "difficulty": 3
+    },
+    {
+      "id": "ch06",
+      "title": "第 6 章：非线性与稳定性",
+      "file": "chapters/ch06-非线性与稳定性.md",
+      "difficulty": 3
+    },
+    {
+      "id": "ch07",
+      "title": "第 7 章：一阶线性偏微分方程",
+      "file": "chapters/ch07-一阶线性偏微分方程.md",
+      "difficulty": 3
+    },
+    {
+      "id": "ch08",
+      "title": "第 8 章：边值问题",
+      "file": "chapters/ch08-边值问题.md",
+      "difficulty": 3
+    }
+  ],
+  "concepts": [
+    {
+      "id": "c01",
+      "title": "通解与初值问题",
+      "file": "concepts/c01-通解与初值问题.md",
+      "chapterIds": [
+        "ch01",
+        "ch03"
+      ]
+    },
+    {
+      "id": "c02",
+      "title": "积分因子",
+      "file": "concepts/c02-积分因子.md",
+      "chapterIds": [
+        "ch02"
+      ]
+    },
+    {
+      "id": "c03",
+      "title": "皮卡迭代与格朗沃尔引理",
+      "file": "concepts/c03-皮卡迭代与格朗沃尔.md",
+      "chapterIds": [
+        "ch03"
+      ]
+    },
+    {
+      "id": "c04",
+      "title": "朗斯基行列式",
+      "file": "concepts/c04-朗斯基行列式.md",
+      "chapterIds": [
+        "ch04"
+      ]
+    },
+    {
+      "id": "c05",
+      "title": "基解矩阵与矩阵指数",
+      "file": "concepts/c05-基解矩阵与矩阵指数.md",
+      "chapterIds": [
+        "ch05"
+      ]
+    },
+    {
+      "id": "c06",
+      "title": "李雅普诺夫稳定性",
+      "file": "concepts/c06-李雅普诺夫稳定性.md",
+      "chapterIds": [
+        "ch06"
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "term": "常微分方程",
+      "def": "只含一个自变量、未知函数及其导数的方程",
+      "chapterId": "ch01"
+    },
+    {
+      "term": "阶",
+      "def": "方程中出现过的最高阶导数的阶数",
+      "chapterId": "ch01"
+    },
+    {
+      "term": "线性方程",
+      "def": "关于未知函数及其各阶导数都是一次的方程",
+      "chapterId": "ch01"
+    },
+    {
+      "term": "通解",
+      "def": "含 n 个独立任意常数的解族",
+      "chapterId": "ch01"
+    },
+    {
+      "term": "特解",
+      "def": "满足给定初值条件的解",
+      "chapterId": "ch01"
+    },
+    {
+      "term": "隐式解",
+      "def": "由 Φ(x,y)=0 确定的解，也叫积分",
+      "chapterId": "ch01"
+    },
+    {
+      "term": "初值问题",
+      "def": "方程连同一点处的一组初值条件",
+      "chapterId": "ch01"
+    },
+    {
+      "term": "积分曲线",
+      "def": "解在平面上的图形",
+      "chapterId": "ch01"
+    },
+    {
+      "term": "方向场",
+      "def": "平面上每点标出斜率的线素集合",
+      "chapterId": "ch01"
+    },
+    {
+      "term": "等斜线",
+      "def": "方向场中斜率相同的点的连线",
+      "chapterId": "ch01"
+    },
+    {
+      "term": "相平面",
+      "def": "以状态变量为坐标的平面，轨线在其上",
+      "chapterId": "ch01"
+    },
+    {
+      "term": "变量分离",
+      "def": "把方程改写成 f(y)dy=g(x)dx 的方法",
+      "chapterId": "ch02"
+    },
+    {
+      "term": "齐次型方程",
+      "def": "右端只依赖 y/x 的方程",
+      "chapterId": "ch02"
+    },
+    {
+      "term": "常数变易法",
+      "def": "把齐次解的常数换成函数求非齐次解",
+      "chapterId": "ch02"
+    },
+    {
+      "term": "恰当方程",
+      "def": "左端恰为某个函数全微分的方程",
+      "chapterId": "ch02"
+    },
+    {
+      "term": "积分因子",
+      "def": "乘上去使方程变恰当的因子 μ",
+      "chapterId": "ch02"
+    },
+    {
+      "term": "奇解",
+      "def": "不属于通解族、但与族中曲线相切的解",
+      "chapterId": "ch02"
+    },
+    {
+      "term": "包络",
+      "def": "与一族曲线相切的曲线",
+      "chapterId": "ch02"
+    },
+    {
+      "term": "李普希茨条件",
+      "def": "关于 y 的变化率被常数 L 卡住",
+      "chapterId": "ch03"
+    },
+    {
+      "term": "皮卡迭代",
+      "def": "用积分方程反复代换逼近解",
+      "chapterId": "ch03"
+    },
+    {
+      "term": "格朗沃尔引理",
+      "def": "积分不等式推出差为零的工具",
+      "chapterId": "ch03"
+    },
+    {
+      "term": "饱和解",
+      "def": "不能再延拓的解",
+      "chapterId": "ch03"
+    },
+    {
+      "term": "朗斯基行列式",
+      "def": "n 个解及其导数排成的行列式",
+      "chapterId": "ch04"
+    },
+    {
+      "term": "基本解组",
+      "def": "n 个线性无关的齐次解",
+      "chapterId": "ch04"
+    },
+    {
+      "term": "特征方程",
+      "def": "常系数方程代入 e^(rx) 得到的多项式方程",
+      "chapterId": "ch04"
+    },
+    {
+      "term": "基解矩阵",
+      "def": "以 n 个线性无关解为列的矩阵 Φ",
+      "chapterId": "ch05"
+    },
+    {
+      "term": "矩阵指数",
+      "def": "e^(At)=ΣAᵏtᵏ/k!",
+      "chapterId": "ch05"
+    },
+    {
+      "term": "预解矩阵",
+      "def": "(sI−A)⁻¹，其逆变换为 e^(At)",
+      "chapterId": "ch05"
+    },
+    {
+      "term": "平衡点",
+      "def": "使 f(x)=0 的点",
+      "chapterId": "ch06"
+    },
+    {
+      "term": "渐近稳定",
+      "def": "稳定且轨线趋于平衡点",
+      "chapterId": "ch06"
+    },
+    {
+      "term": "李雅普诺夫函数",
+      "def": "沿轨线单调下降的正定函数 V",
+      "chapterId": "ch06"
+    },
+    {
+      "term": "极限环",
+      "def": "孤立的闭轨",
+      "chapterId": "ch06"
+    },
+    {
+      "term": "哈密顿方程",
+      "def": "dp/dt=−H_q，dq/dt=H_p 形式的系统",
+      "chapterId": "ch06"
+    },
+    {
+      "term": "首次积分",
+      "def": "沿轨线取常数的函数",
+      "chapterId": "ch06"
+    },
+    {
+      "term": "特征线",
+      "def": "偏微分方程沿之降为常微分方程的曲线",
+      "chapterId": "ch07"
+    },
+    {
+      "term": "柯西问题",
+      "def": "偏微分方程加初始曲线的问题",
+      "chapterId": "ch07"
+    },
+    {
+      "term": "格林函数",
+      "def": "点源在边界条件下产生的响应",
+      "chapterId": "ch08"
+    },
+    {
+      "term": "斯特姆-刘维尔问题",
+      "def": "自伴形式的特征值问题",
+      "chapterId": "ch08"
+    },
+    {
+      "term": "弗雷德霍姆二择一",
+      "def": "齐次问题只有零解则非齐次唯一可解",
+      "chapterId": "ch08"
+    }
+  ],
+  "patterns": {
+    "file": "patterns.md"
+  },
+  "cheatsheet": {
+    "file": "cheatsheet.md"
+  },
+  "quizzes": [
+    {
+      "id": "q01",
+      "chapterId": "ch01",
+      "type": "single",
+      "question": "y·y″+(y′)²=0 的阶数与线性性是？",
+      "options": [
+        "二阶，线性",
+        "二阶，非线性",
+        "一阶，非线性",
+        "三阶，非线性"
+      ],
+      "answer": 1,
+      "explain": "含 y·y″ 使方程关于 y 及其导数为二次，故非线性。"
+    },
+    {
+      "id": "q02",
+      "chapterId": "ch01",
+      "type": "single",
+      "question": "一阶方程 y′=f(x,y) 的等斜线 f(x,y)=0 处，积分曲线的切线是？",
+      "options": [
+        "竖直的",
+        "水平的",
+        "斜率为 1",
+        "不存在"
+      ],
+      "answer": 1,
+      "explain": "斜率为零即切线水平。"
+    },
+    {
+      "id": "q03",
+      "chapterId": "ch01",
+      "type": "single",
+      "question": "n 阶方程通解中 n 个常数强调“独立”，判据是？",
+      "options": [
+        "常数互不相等",
+        "对常数的雅可比行列式不为零",
+        "常数可以取任意值",
+        "常数个数等于阶数"
+      ],
+      "answer": 1,
+      "explain": "独立性用雅可比行列式不为零定义，防止常数相互替代造成自由度退化。"
+    },
+    {
+      "id": "q04",
+      "chapterId": "ch02",
+      "type": "single",
+      "question": "解 dy/dx=y² 时，除通解 y=−1/(x+C) 外还必须单独记录的解是？",
+      "options": [
+        "y=1",
+        "y=0",
+        "y=x",
+        "没有额外解"
+      ],
+      "answer": 1,
+      "explain": "分离变量时除以 y²，y≡0 是常数解，必须单独写。"
+    },
+    {
+      "id": "q05",
+      "chapterId": "ch02",
+      "type": "single",
+      "question": "(2xy+y²)dx+(x²+2xy)dy=0 是恰当方程，其解为？",
+      "options": [
+        "x²y+xy²=C",
+        "x²+y²=C",
+        "xy=C",
+        "x²y²=C"
+      ],
+      "answer": 0,
+      "explain": "取 u=x²y+xy²，du 恰为左端。"
+    },
+    {
+      "id": "q06",
+      "chapterId": "ch02",
+      "type": "single",
+      "question": "一阶线性方程 y′+P(x)y=Q(x) 的通解公式是？",
+      "options": [
+        "y=Ce^(−∫P)",
+        "y=e^(−∫P)[∫Qe^(∫P)dx+C]",
+        "y=e^(∫P)[∫Qe^(−∫P)dx+C]",
+        "y=∫Qdx+C"
+      ],
+      "answer": 1,
+      "explain": "常数变易法得到的标准公式。"
+    },
+    {
+      "id": "q07",
+      "chapterId": "ch03",
+      "type": "single",
+      "question": "皮卡定理中 h=min(a,b/M) 的 M 指？",
+      "options": [
+        "李普希茨常数",
+        "|f| 在矩形上的最大值",
+        "矩形的宽",
+        "初值的模"
+      ],
+      "answer": 1,
+      "explain": "M 是 f 在矩形上的最大模，用来保证迭代不跑出矩形。"
+    },
+    {
+      "id": "q08",
+      "chapterId": "ch03",
+      "type": "single",
+      "question": "唯一性证明中格朗沃尔引理的 A 取？",
+      "options": [
+        "A=1",
+        "A=0",
+        "A=M",
+        "A=L"
+      ],
+      "answer": 1,
+      "explain": "两个解之差在初值点为 0，故 A=0，从而差恒为零。"
+    },
+    {
+      "id": "q09",
+      "chapterId": "ch03",
+      "type": "single",
+      "question": "方程 y′=3y^(2/3)，y(0)=0 的解的特点是？",
+      "options": [
+        "唯一",
+        "不存在",
+        "不唯一",
+        "只在正半轴存在"
+      ],
+      "answer": 2,
+      "explain": "f 在 y=0 处不满足李普希茨，解不唯一：y≡0 与 y=x³ 都是解。"
+    },
+    {
+      "id": "q10",
+      "chapterId": "ch04",
+      "type": "single",
+      "question": "y″−3y′+2y=0 的基本解组是？",
+      "options": [
+        "eˣ, e^(2x)",
+        "e^(−x), e^(−2x)",
+        "1, x",
+        "cos x, sin x"
+      ],
+      "answer": 0,
+      "explain": "特征方程 r²−3r+2=0 的根为 1 和 2。"
+    },
+    {
+      "id": "q11",
+      "chapterId": "ch04",
+      "type": "single",
+      "question": "朗斯基行列式的刘维尔公式说明？",
+      "options": [
+        "W 可能时零时非零",
+        "W 要么恒零要么恒不为零",
+        "W 恒为正",
+        "W 与 a₁ 无关"
+      ],
+      "answer": 1,
+      "explain": "W=W(x₀)exp(−∫a₁)，指数因子恒不为零。"
+    },
+    {
+      "id": "q12",
+      "chapterId": "ch04",
+      "type": "single",
+      "question": "右端 f=e^(3x)，而 3 恰是一重特征根时，特解应设为？",
+      "options": [
+        "Ae^(3x)",
+        "xAe^(3x)",
+        "x²Ae^(3x)",
+        "Acos3x"
+      ],
+      "answer": 1,
+      "explain": "撞根须乘 xᵏ，k 为重数。"
+    },
+    {
+      "id": "q13",
+      "chapterId": "ch05",
+      "type": "single",
+      "question": "基解矩阵 Φ 必须满足？",
+      "options": [
+        "Φ′=AΦ 且 det Φ≠0",
+        "Φ′=AΦ 且 det Φ=0",
+        "Φ=AΦ 且 det Φ≠0",
+        "Φ′=Φ 且 det Φ≠0"
+      ],
+      "answer": 0,
+      "explain": "这是基解矩阵的定义。"
+    },
+    {
+      "id": "q14",
+      "chapterId": "ch05",
+      "type": "single",
+      "question": "A 为若尔当块 [[2,1],[0,2]] 时 e^(At)=？",
+      "options": [
+        "e^(2t)I",
+        "e^(2t)[[1,t],[0,1]]",
+        "[[e^(2t),0],[0,e^(2t)]]",
+        "e^(2t)[[1,0],[t,1]]"
+      ],
+      "answer": 1,
+      "explain": "N 幂零，级数截断为 I+Nt。"
+    },
+    {
+      "id": "q15",
+      "chapterId": "ch05",
+      "type": "single",
+      "question": "拉普拉斯变换解 x′=Ax 时，预解矩阵是？",
+      "options": [
+        "(sI+A)⁻¹",
+        "(sI−A)⁻¹",
+        "sA⁻¹",
+        "A/s"
+      ],
+      "answer": 1,
+      "explain": "sX−x₀=AX 得 (sI−A)X=x₀。"
+    },
+    {
+      "id": "q16",
+      "chapterId": "ch06",
+      "type": "single",
+      "question": "系统 tr A=−2，det A=2，Δ<0 时奇点类型是？",
+      "options": [
+        "稳定结点",
+        "稳定焦点",
+        "鞍点",
+        "中心"
+      ],
+      "answer": 1,
+      "explain": "q>0，Δ<0，p<0 ⇒ 稳定焦点。"
+    },
+    {
+      "id": "q17",
+      "chapterId": "ch06",
+      "type": "single",
+      "question": "李雅普诺夫第二方法中 V 需满足？",
+      "options": [
+        "V 正定且沿轨线导数负定",
+        "V 负定且导数正定",
+        "V 任意",
+        "V 必须是二次型"
+      ],
+      "answer": 0,
+      "explain": "正定加导数负定即渐近稳定。"
+    },
+    {
+      "id": "q18",
+      "chapterId": "ch06",
+      "type": "single",
+      "question": "庞加莱-本迪克松定理适用于？",
+      "options": [
+        "任意维系统",
+        "仅平面系统",
+        "仅线性系统",
+        "仅哈密顿系统"
+      ],
+      "answer": 1,
+      "explain": "该定理只在平面上成立，三维不成立。"
+    },
+    {
+      "id": "q19",
+      "chapterId": "ch07",
+      "type": "single",
+      "question": "齐次线性 PDE a u_x+b u_y=0 的通解是？",
+      "options": [
+        "u=F(Φ)，Φ 为首次积分",
+        "u=Φ(x,y)",
+        "u=ax+by",
+        "u=常数"
+      ],
+      "answer": 0,
+      "explain": "每条特征线上 u 为常数，常数可随特征线标号变化。"
+    },
+    {
+      "id": "q20",
+      "chapterId": "ch07",
+      "type": "single",
+      "question": "柯西问题失效的几何条件是？",
+      "options": [
+        "初始曲线与特征线相切",
+        "初始曲线是直线",
+        "初始值不连续",
+        "方程非线性"
+      ],
+      "answer": 0,
+      "explain": "相切时无法确定法向导数，非特征条件不成立。"
+    },
+    {
+      "id": "q21",
+      "chapterId": "ch07",
+      "type": "single",
+      "question": "n 维一阶方程组有几个独立首次积分？",
+      "options": [
+        "n 个",
+        "n−1 个",
+        "1 个",
+        "无穷多个"
+      ],
+      "answer": 1,
+      "explain": "n−1 个独立首次积分把解隐式确定。"
+    },
+    {
+      "id": "q22",
+      "chapterId": "ch08",
+      "type": "single",
+      "question": "边值问题 y″+π²y=0，y(0)=y(1)=0 的解？",
+      "options": [
+        "唯一零解",
+        "不唯一",
+        "无解",
+        "唯一非零解"
+      ],
+      "answer": 1,
+      "explain": "sin(πx) 是齐次问题的非零解，故不唯一。"
+    },
+    {
+      "id": "q23",
+      "chapterId": "ch08",
+      "type": "single",
+      "question": "格林函数在 x=ξ 处的导数跳跃量是？",
+      "options": [
+        "0",
+        "1",
+        "−1/p(ξ)",
+        "p(ξ)"
+      ],
+      "answer": 2,
+      "explain": "把点源夹进方程积分得到跳跃条件。"
+    },
+    {
+      "id": "q24",
+      "chapterId": "ch08",
+      "type": "single",
+      "question": "斯特姆-刘维尔问题的特征值？",
+      "options": [
+        "可能为复数",
+        "全为实数",
+        "只有有限个",
+        "全为正"
+      ],
+      "answer": 1,
+      "explain": "自伴性保证特征值为实数。"
+    },
+    {
+      "id": "q25",
+      "chapterId": "__all",
+      "type": "single",
+      "question": "同一个方程 y′=f(x,y)，若 f 连续但不在任何矩形上满足李普希茨，能保证的是？",
+      "options": [
+        "存在且唯一",
+        "存在但不一定唯一",
+        "唯一但不一定存在",
+        "既不保证存在也不保证唯一"
+      ],
+      "answer": 1,
+      "explain": "连续保证存在性（皮亚诺定理），唯一性需要更强的李普希茨条件。"
+    },
+    {
+      "id": "q26",
+      "chapterId": "__all",
+      "type": "single",
+      "question": "线性方程与非线性方程在“解集结构”上的根本差别是？",
+      "options": [
+        "线性方程解集是线性空间",
+        "线性方程解一定唯一",
+        "非线性方程解集是线性空间",
+        "没有差别"
+      ],
+      "answer": 0,
+      "explain": "线性齐次方程的解集构成 n 维线性空间，非线性没有这个结构。"
+    },
+    {
+      "id": "q27",
+      "chapterId": "__all",
+      "type": "single",
+      "question": "边值问题与初值问题最关键的区别是？",
+      "options": [
+        "边值问题条件给在两端，可能无解或不唯一",
+        "边值问题不需要方程",
+        "边值问题一定唯一可解",
+        "初值问题不需要连续性"
+      ],
+      "answer": 0,
+      "explain": "两端的条件使问题变成算子可逆性问题，二择一定理描述这一点。"
+    },
+    {
+      "id": "q28",
+      "chapterId": "__all",
+      "type": "single",
+      "question": "“混沌”在数学上的准确含义是？",
+      "options": [
+        "随机过程",
+        "确定性系统对初值敏感且有界非周期",
+        "方程无解",
+        "数值方法失败"
+      ],
+      "answer": 1,
+      "explain": "确定性、有界、非周期、对初值指数敏感。"
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f01",
+      "chapterId": "ch01",
+      "front": "通解与特解的区别？",
+      "back": "通解含 n 个独立任意常数；特解由初值条件确定常数。",
+      "tags": [
+        "定义"
+      ]
+    },
+    {
+      "id": "f02",
+      "chapterId": "ch01",
+      "front": "方向场里积分曲线与等斜线的关系？",
+      "back": "积分曲线处处与方向场线素相切；等斜线是斜率相同的点集。",
+      "tags": [
+        "几何"
+      ]
+    },
+    {
+      "id": "f03",
+      "chapterId": "ch01",
+      "front": "为什么要把高阶方程化为一阶方程组？",
+      "back": "让存在唯一性、延拓、稳定性只需对一阶组陈述一次。",
+      "tags": [
+        "方法"
+      ]
+    },
+    {
+      "id": "f04",
+      "chapterId": "ch01",
+      "front": "线性性的判断对象是什么？",
+      "back": "只针对未知函数 y 及其各阶导数，系数含 x 的非线性函数不影响。",
+      "tags": [
+        "易错"
+      ]
+    },
+    {
+      "id": "f05",
+      "chapterId": "ch02",
+      "front": "分离变量后必须补记什么？",
+      "back": "被除掉的因子 g(y)=0 对应的常数解。",
+      "tags": [
+        "易错"
+      ]
+    },
+    {
+      "id": "f06",
+      "chapterId": "ch02",
+      "front": "一阶线性方程的通解公式？",
+      "back": "y=e^(−∫P)[∫Qe^(∫P)dx+C]。",
+      "tags": [
+        "公式"
+      ]
+    },
+    {
+      "id": "f07",
+      "chapterId": "ch02",
+      "front": "恰当方程的判据？",
+      "back": "∂M/∂y=∂N/∂x（单连通区域上）。",
+      "tags": [
+        "判据"
+      ]
+    },
+    {
+      "id": "f08",
+      "chapterId": "ch02",
+      "front": "克莱罗方程的奇解怎么来？",
+      "back": "求导后 x+g′(p)=0 给出包络，是通解直线族的奇解。",
+      "tags": [
+        "奇解"
+      ]
+    },
+    {
+      "id": "f09",
+      "chapterId": "ch03",
+      "front": "皮卡迭代的递推式？",
+      "back": "φₙ₊₁(x)=y₀+∫f(t,φₙ(t))dt，φ₀=y₀。",
+      "tags": [
+        "公式"
+      ]
+    },
+    {
+      "id": "f10",
+      "chapterId": "ch03",
+      "front": "唯一性为什么必须用格朗沃尔？",
+      "back": "两解之差满足积分不等式，只有格朗沃尔能把它压成零。",
+      "tags": [
+        "证明"
+      ]
+    },
+    {
+      "id": "f11",
+      "chapterId": "ch03",
+      "front": "延拓的终止条件？",
+      "back": "解到达定义域边界，或在有限时间爆破。",
+      "tags": [
+        "延拓"
+      ]
+    },
+    {
+      "id": "f12",
+      "chapterId": "ch03",
+      "front": "p-判别式给出的曲线一定是奇解吗？",
+      "back": "不一定，必须代回原方程检验。",
+      "tags": [
+        "易错"
+      ]
+    },
+    {
+      "id": "f13",
+      "chapterId": "ch04",
+      "front": "朗斯基行列式不为零意味着？",
+      "back": "这 n 个解线性无关，构成基本解组。",
+      "tags": [
+        "判据"
+      ]
+    },
+    {
+      "id": "f14",
+      "chapterId": "ch04",
+      "front": "特征根为 k 重实根 r 时贡献哪些解？",
+      "back": "e^(rx), xe^(rx), …, x^(k−1)e^(rx)。",
+      "tags": [
+        "公式"
+      ]
+    },
+    {
+      "id": "f15",
+      "chapterId": "ch04",
+      "front": "常数变易法的自由度计数？",
+      "back": "n 个待定函数多出 n−1 个自由度，可加 n−1 个约束。",
+      "tags": [
+        "理解"
+      ]
+    },
+    {
+      "id": "f16",
+      "chapterId": "ch04",
+      "front": "右端撞上特征根为什么必须乘 xᵏ？",
+      "back": "否则特解落在齐次解空间，代入被算子打成零。",
+      "tags": [
+        "易错"
+      ]
+    },
+    {
+      "id": "f17",
+      "chapterId": "ch05",
+      "front": "基解矩阵的两个条件？",
+      "back": "Φ′=AΦ 且 det Φ≠0。",
+      "tags": [
+        "定义"
+      ]
+    },
+    {
+      "id": "f18",
+      "chapterId": "ch05",
+      "front": "矩阵指数为什么在若尔当块下出现 t 的幂？",
+      "back": "N 幂零使级数截断，留下有限项 Nᵏtᵏ/k!。",
+      "tags": [
+        "理解"
+      ]
+    },
+    {
+      "id": "f19",
+      "chapterId": "ch05",
+      "front": "非齐次方程组的常数变易公式？",
+      "back": "x=Φ(t)[C+∫Φ⁻¹(s)f(s)ds]。",
+      "tags": [
+        "公式"
+      ]
+    },
+    {
+      "id": "f20",
+      "chapterId": "ch05",
+      "front": "预解矩阵与 e^(At) 的关系？",
+      "back": "(sI−A)⁻¹ 的拉普拉斯逆变换就是 e^(At)。",
+      "tags": [
+        "联系"
+      ]
+    },
+    {
+      "id": "f21",
+      "chapterId": "ch06",
+      "front": "稳定与渐近稳定的差别？",
+      "back": "稳定只要求不跑出给定圈；渐近稳定还要求收敛到平衡点。",
+      "tags": [
+        "定义"
+      ]
+    },
+    {
+      "id": "f22",
+      "chapterId": "ch06",
+      "front": "线性化在什么情形失效？",
+      "back": "特征值实部有零时（非双曲）。",
+      "tags": [
+        "易错"
+      ]
+    },
+    {
+      "id": "f23",
+      "chapterId": "ch06",
+      "front": "平面奇点分类的三个量？",
+      "back": "迹 p、行列式 q、判别式 Δ=p²−4q。",
+      "tags": [
+        "分类"
+      ]
+    },
+    {
+      "id": "f24",
+      "chapterId": "ch06",
+      "front": "庞加莱-本迪克松定理的条件？",
+      "back": "平面系统、有界闭区域、区域内无平衡点 ⇒ 存在闭轨。",
+      "tags": [
+        "定理"
+      ]
+    },
+    {
+      "id": "f25",
+      "chapterId": "ch07",
+      "front": "首次积分的定义式？",
+      "back": "XΦ_x+YΦ_y+ZΦ_z=0，即沿向量场方向导数为零。",
+      "tags": [
+        "定义"
+      ]
+    },
+    {
+      "id": "f26",
+      "chapterId": "ch07",
+      "front": "齐次线性 PDE 通解的形式？",
+      "back": "u=F(Φ)，Φ 是特征方程的首次积分，F 任意可微。",
+      "tags": [
+        "公式"
+      ]
+    },
+    {
+      "id": "f27",
+      "chapterId": "ch07",
+      "front": "柯西问题的非特征条件？",
+      "back": "初始曲线方向与特征方向不平行。",
+      "tags": [
+        "判据"
+      ]
+    },
+    {
+      "id": "f28",
+      "chapterId": "ch08",
+      "front": "弗雷德霍姆二择一说的是什么？",
+      "back": "齐次问题只有零解则非齐次唯一可解，否则无解或无穷多解。",
+      "tags": [
+        "定理"
+      ]
+    },
+    {
+      "id": "f29",
+      "chapterId": "ch08",
+      "front": "格林函数的物理意义？",
+      "back": "单位点源在给定边界条件下产生的响应。",
+      "tags": [
+        "理解"
+      ]
+    },
+    {
+      "id": "f30",
+      "chapterId": "ch08",
+      "front": "斯特姆-刘维尔特征函数的两条性质？",
+      "back": "不同特征值的特征函数带权正交；系完备可展开。",
+      "tags": [
+        "性质"
+      ]
+    }
+  ],
+  "companion": "wanggaoxiong-ode学习伴侣.html"
+}

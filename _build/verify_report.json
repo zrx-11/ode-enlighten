@@ -1,0 +1,247 @@
+[
+ {
+  "check": "首页渲染",
+  "pass": true,
+  "extra": ""
+ },
+ {
+  "check": "书卡数量",
+  "pass": true,
+  "extra": "7/7"
+ },
+ {
+  "check": "总览页：跨书总览：常微分方程学习路线",
+  "pass": true,
+  "extra": "1507 字符"
+ },
+ {
+  "check": "总览页：跨书概念映射表",
+  "pass": true,
+  "extra": "1358 字符"
+ },
+ {
+  "check": "总览页：综合检验建议",
+  "pass": true,
+  "extra": "1166 字符"
+ },
+ {
+  "check": "wanggaoxiong-ode 首章渲染",
+  "pass": true,
+  "extra": "3648 字符"
+ },
+ {
+  "check": "wanggaoxiong-ode 末章渲染",
+  "pass": true,
+  "extra": "3006 字符"
+ },
+ {
+  "check": "zhusiming-guide 首章渲染",
+  "pass": true,
+  "extra": "1862 字符"
+ },
+ {
+  "check": "zhusiming-guide 末章渲染",
+  "pass": true,
+  "extra": "1401 字符"
+ },
+ {
+  "check": "xitijiexi-ode 首章渲染",
+  "pass": true,
+  "extra": "1355 字符"
+ },
+ {
+  "check": "xitijiexi-ode 末章渲染",
+  "pass": true,
+  "extra": "1305 字符"
+ },
+ {
+  "check": "liubin-ode 首章渲染",
+  "pass": true,
+  "extra": "2010 字符"
+ },
+ {
+  "check": "liubin-ode 末章渲染",
+  "pass": true,
+  "extra": "1908 字符"
+ },
+ {
+  "check": "dingtongren-ode 首章渲染",
+  "pass": true,
+  "extra": "1941 字符"
+ },
+ {
+  "check": "dingtongren-ode 末章渲染",
+  "pass": true,
+  "extra": "1566 字符"
+ },
+ {
+  "check": "pontryagin-ode 首章渲染",
+  "pass": true,
+  "extra": "1477 字符"
+ },
+ {
+  "check": "pontryagin-ode 末章渲染",
+  "pass": true,
+  "extra": "1356 字符"
+ },
+ {
+  "check": "arnold-ode 首章渲染",
+  "pass": true,
+  "extra": "1519 字符"
+ },
+ {
+  "check": "arnold-ode 末章渲染",
+  "pass": true,
+  "extra": "1533 字符"
+ },
+ {
+  "check": "wanggaoxiong-ode 测验题数",
+  "pass": true,
+  "extra": "24 题"
+ },
+ {
+  "check": "wanggaoxiong-ode 测验正确反馈",
+  "pass": true,
+  "extra": "✓ 正确"
+ },
+ {
+  "check": "wanggaoxiong-ode 测验解析",
+  "pass": true,
+  "extra": ""
+ },
+ {
+  "check": "zhusiming-guide 测验题数",
+  "pass": true,
+  "extra": "17 题"
+ },
+ {
+  "check": "zhusiming-guide 测验正确反馈",
+  "pass": true,
+  "extra": "✓ 正确"
+ },
+ {
+  "check": "zhusiming-guide 测验解析",
+  "pass": true,
+  "extra": ""
+ },
+ {
+  "check": "xitijiexi-ode 测验题数",
+  "pass": true,
+  "extra": "16 题"
+ },
+ {
+  "check": "xitijiexi-ode 测验正确反馈",
+  "pass": true,
+  "extra": "✓ 正确"
+ },
+ {
+  "check": "xitijiexi-ode 测验解析",
+  "pass": true,
+  "extra": ""
+ },
+ {
+  "check": "liubin-ode 测验题数",
+  "pass": true,
+  "extra": "18 题"
+ },
+ {
+  "check": "liubin-ode 测验正确反馈",
+  "pass": true,
+  "extra": "✓ 正确"
+ },
+ {
+  "check": "liubin-ode 测验解析",
+  "pass": true,
+  "extra": ""
+ },
+ {
+  "check": "dingtongren-ode 测验题数",
+  "pass": true,
+  "extra": "22 题"
+ },
+ {
+  "check": "dingtongren-ode 测验正确反馈",
+  "pass": true,
+  "extra": "✓ 正确"
+ },
+ {
+  "check": "dingtongren-ode 测验解析",
+  "pass": true,
+  "extra": ""
+ },
+ {
+  "check": "pontryagin-ode 测验题数",
+  "pass": true,
+  "extra": "15 题"
+ },
+ {
+  "check": "pontryagin-ode 测验正确反馈",
+  "pass": true,
+  "extra": "✓ 正确"
+ },
+ {
+  "check": "pontryagin-ode 测验解析",
+  "pass": true,
+  "extra": ""
+ },
+ {
+  "check": "arnold-ode 测验题数",
+  "pass": true,
+  "extra": "17 题"
+ },
+ {
+  "check": "arnold-ode 测验正确反馈",
+  "pass": true,
+  "extra": "✓ 正确"
+ },
+ {
+  "check": "arnold-ode 测验解析",
+  "pass": true,
+  "extra": ""
+ },
+ {
+  "check": "抽认卡正面有内容",
+  "pass": true,
+  "extra": "通解与特解的区别？"
+ },
+ {
+  "check": "抽认卡翻转",
+  "pass": true,
+  "extra": ""
+ },
+ {
+  "check": "认识计数增加",
+  "pass": true,
+  "extra": "1"
+ },
+ {
+  "check": "术语表过滤",
+  "pass": true,
+  "extra": "共39 过滤后1（常微分方）"
+ },
+ {
+  "check": "全局搜索命中",
+  "pass": true,
+  "extra": "11 条"
+ },
+ {
+  "check": "进度跨刷新持久",
+  "pass": true,
+  "extra": "《常微分方程（王高雄第四版）》 进度 38% · 已学 3/8 章 → 《常微分方程（王高雄第四版）》 进度 38% · 已学 3/8 章"
+ },
+ {
+  "check": "学习路径完成标记",
+  "pass": true,
+  "extra": ""
+ },
+ {
+  "check": "深色模式",
+  "pass": true,
+  "extra": ""
+ },
+ {
+  "check": "控制台无错误",
+  "pass": true,
+  "extra": ""
+ }
+]

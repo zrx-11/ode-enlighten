@@ -1,0 +1,725 @@
+{
+  "slug": "zhusiming-guide",
+  "title": "常微分方程学习辅导与习题解答（朱思铭）",
+  "subtitle": "把定理翻译成考场动作",
+  "book": {
+    "title": "常微分方程学习辅导与习题解答",
+    "author": "朱思铭",
+    "source": [
+      "常微分方程学习辅导与习题解答 (朱思铭).pdf"
+    ]
+  },
+  "audience": "零基础到本科二年级，目标是吃透理论并会做题",
+  "goal": "系统掌握常微分方程的解法定课与理论基础",
+  "learningPath": [
+    {
+      "step": "01",
+      "title": "一阶方程解题",
+      "chapterIds": [
+        "ch01"
+      ],
+      "checkpoint": "一分钟定路线"
+    },
+    {
+      "step": "02",
+      "title": "存在唯一性",
+      "chapterIds": [
+        "ch02"
+      ],
+      "checkpoint": "验证李普希茨"
+    },
+    {
+      "step": "03",
+      "title": "高阶线性",
+      "chapterIds": [
+        "ch03"
+      ],
+      "checkpoint": "共振规则"
+    },
+    {
+      "step": "04",
+      "title": "方程组",
+      "chapterIds": [
+        "ch04"
+      ],
+      "checkpoint": "算基解矩阵"
+    },
+    {
+      "step": "05",
+      "title": "稳定性",
+      "chapterIds": [
+        "ch05"
+      ],
+      "checkpoint": "五步流程"
+    },
+    {
+      "step": "06",
+      "title": "PDE 与边值",
+      "chapterIds": [
+        "ch06"
+      ],
+      "checkpoint": "特征线法"
+    },
+    {
+      "step": "07",
+      "title": "试题选讲",
+      "chapterIds": [
+        "ch07"
+      ],
+      "checkpoint": "认题"
+    },
+    {
+      "step": "08",
+      "title": "数学软件",
+      "chapterIds": [
+        "ch08"
+      ],
+      "checkpoint": "四重校验"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "ch01",
+      "title": "第 1 章：一阶方程解题指导",
+      "file": "chapters/ch01-一阶方程解题指导.md",
+      "difficulty": 2
+    },
+    {
+      "id": "ch02",
+      "title": "第 2 章：存在唯一性与奇解",
+      "file": "chapters/ch02-存在唯一性解题指导.md",
+      "difficulty": 3
+    },
+    {
+      "id": "ch03",
+      "title": "第 3 章：高阶线性方程",
+      "file": "chapters/ch03-高阶线性方程解题指导.md",
+      "difficulty": 3
+    },
+    {
+      "id": "ch04",
+      "title": "第 4 章：线性微分方程组",
+      "file": "chapters/ch04-线性方程组解题指导.md",
+      "difficulty": 3
+    },
+    {
+      "id": "ch05",
+      "title": "第 5 章：非线性与稳定性",
+      "file": "chapters/ch05-非线性与稳定性.md",
+      "difficulty": 3
+    },
+    {
+      "id": "ch06",
+      "title": "第 6 章：PDE 与边值问题",
+      "file": "chapters/ch06-偏微分与边值问题.md",
+      "difficulty": 3
+    },
+    {
+      "id": "ch07",
+      "title": "第 7 章：期中期末与考研试题",
+      "file": "chapters/ch07-试题选讲.md",
+      "difficulty": 3
+    },
+    {
+      "id": "ch08",
+      "title": "第 8 章：数学软件",
+      "file": "chapters/ch08-数学软件.md",
+      "difficulty": 2
+    }
+  ],
+  "concepts": [
+    {
+      "id": "c01",
+      "title": "积分因子",
+      "file": "concepts/c01-积分因子.md",
+      "chapterIds": [
+        "ch01"
+      ]
+    },
+    {
+      "id": "c02",
+      "title": "共振与特解形式",
+      "file": "concepts/c02-共振.md",
+      "chapterIds": [
+        "ch03"
+      ]
+    },
+    {
+      "id": "c03",
+      "title": "李雅普诺夫方程",
+      "file": "concepts/c03-李雅普诺夫方程.md",
+      "chapterIds": [
+        "ch05"
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "term": "积分因子",
+      "def": "使方程变恰当的乘子",
+      "chapterId": "ch01"
+    },
+    {
+      "term": "恰当方程",
+      "def": "左端为全微分",
+      "chapterId": "ch01"
+    },
+    {
+      "term": "伯努利方程",
+      "def": "y′+Py=Qyⁿ",
+      "chapterId": "ch01"
+    },
+    {
+      "term": "分离变量",
+      "def": "把变量各自归到一边",
+      "chapterId": "ch01"
+    },
+    {
+      "term": "建模四步",
+      "def": "设未知量、写关系、定初值、检验",
+      "chapterId": "ch01"
+    },
+    {
+      "term": "李普希茨条件",
+      "def": "差被常数乘距离控制",
+      "chapterId": "ch02"
+    },
+    {
+      "term": "皮卡迭代",
+      "def": "逐次逼近解",
+      "chapterId": "ch02"
+    },
+    {
+      "term": "奇解",
+      "def": "与通解族相切的额外解",
+      "chapterId": "ch02"
+    },
+    {
+      "term": "延迟解",
+      "def": "在某个时刻才离开平衡的解",
+      "chapterId": "ch02"
+    },
+    {
+      "term": "特征方程",
+      "def": "常系数方程的代数方程",
+      "chapterId": "ch03"
+    },
+    {
+      "term": "待定系数法",
+      "def": "按右端形式猜特解",
+      "chapterId": "ch03"
+    },
+    {
+      "term": "共振",
+      "def": "右端频率等于固有频率",
+      "chapterId": "ch03"
+    },
+    {
+      "term": "常数变易",
+      "def": "用基础解系构造特解",
+      "chapterId": "ch03"
+    },
+    {
+      "term": "朗斯基行列式",
+      "def": "基础解系的行列式",
+      "chapterId": "ch03"
+    },
+    {
+      "term": "欧拉方程",
+      "def": "变系数但可化为常系数",
+      "chapterId": "ch03"
+    },
+    {
+      "term": "基解矩阵",
+      "def": "线性无关解组成的矩阵",
+      "chapterId": "ch04"
+    },
+    {
+      "term": "广义特征向量",
+      "def": "若尔当链上的向量",
+      "chapterId": "ch04"
+    },
+    {
+      "term": "矩阵指数",
+      "def": "e^(At)",
+      "chapterId": "ch04"
+    },
+    {
+      "term": "拉普拉斯变换",
+      "def": "把微分方程变代数式",
+      "chapterId": "ch04"
+    },
+    {
+      "term": "雅可比矩阵",
+      "def": "右端对状态的偏导矩阵",
+      "chapterId": "ch05"
+    },
+    {
+      "term": "李雅普诺夫函数",
+      "def": "判稳用的正定函数",
+      "chapterId": "ch05"
+    },
+    {
+      "term": "李雅普诺夫方程",
+      "def": "AᵀP+PA=−Q",
+      "chapterId": "ch05"
+    },
+    {
+      "term": "极限环",
+      "def": "孤立的闭轨",
+      "chapterId": "ch05"
+    },
+    {
+      "term": "首次积分",
+      "def": "沿轨线取常数",
+      "chapterId": "ch06"
+    },
+    {
+      "term": "特征线",
+      "def": "PDE 沿之降为 ODE 的曲线",
+      "chapterId": "ch06"
+    },
+    {
+      "term": "非特征条件",
+      "def": "初值曲线横截特征方向",
+      "chapterId": "ch06"
+    },
+    {
+      "term": "格林函数",
+      "def": "单位点源的响应",
+      "chapterId": "ch06"
+    },
+    {
+      "term": "二择一",
+      "def": "齐次零解 ⇔ 非齐次唯一可解",
+      "chapterId": "ch06"
+    },
+    {
+      "term": "三分钟识别法",
+      "def": "按阶数/右端/参数快速判题型",
+      "chapterId": "ch07"
+    },
+    {
+      "term": "四重校验",
+      "def": "手算、符号、数值、画图",
+      "chapterId": "ch08"
+    },
+    {
+      "term": "刚性方程",
+      "def": "快慢尺度差极大的方程",
+      "chapterId": "ch08"
+    }
+  ],
+  "patterns": {
+    "file": "patterns.md"
+  },
+  "cheatsheet": {
+    "file": "cheatsheet.md"
+  },
+  "quizzes": [
+    {
+      "id": "q01",
+      "chapterId": "ch01",
+      "type": "single",
+      "question": "判断一阶方程解法路线的第一格是？",
+      "options": [
+        "恰当",
+        "可分离",
+        "换元",
+        "隐式"
+      ],
+      "answer": 1,
+      "explain": "先看能否分离变量。"
+    },
+    {
+      "id": "q02",
+      "chapterId": "ch01",
+      "type": "single",
+      "question": "分离变量时 g(y₀)=0 意味着？",
+      "options": [
+        "无解",
+        "y≡y₀ 也是解",
+        "方程退化",
+        "需积分因子"
+      ],
+      "answer": 1,
+      "explain": "除法丢解。"
+    },
+    {
+      "id": "q03",
+      "chapterId": "ch01",
+      "type": "single",
+      "question": "找 μ 后最容易犯的错？",
+      "options": [
+        "忘记积分",
+        "只乘一边",
+        "符号错",
+        "常数错"
+      ],
+      "answer": 1,
+      "explain": "整条方程都要乘。"
+    },
+    {
+      "id": "q04",
+      "chapterId": "ch02",
+      "type": "single",
+      "question": "f=y² 在 |y|≤3 上的李普希茨常数？",
+      "options": [
+        "1",
+        "3",
+        "6",
+        "9"
+      ],
+      "answer": 2,
+      "explain": "2·3=6。"
+    },
+    {
+      "id": "q05",
+      "chapterId": "ch02",
+      "type": "single",
+      "question": "y′=y^(2/3)，y(0)=0 的解？",
+      "options": [
+        "唯一",
+        "两个",
+        "无穷多",
+        "不存在"
+      ],
+      "answer": 2,
+      "explain": "指数<1，李普希茨失效。"
+    },
+    {
+      "id": "q06",
+      "chapterId": "ch03",
+      "type": "single",
+      "question": "右端 e^(2x)，2 是二重根，特解乘几次 x？",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": 2,
+      "explain": "k 等于重数。"
+    },
+    {
+      "id": "q07",
+      "chapterId": "ch03",
+      "type": "single",
+      "question": "常数变易中的 W 指？",
+      "options": [
+        "权重",
+        "朗斯基行列式",
+        "若尔当块",
+        "逆矩阵"
+      ],
+      "answer": 1,
+      "explain": "基础解系的行列式。"
+    },
+    {
+      "id": "q08",
+      "chapterId": "ch04",
+      "type": "single",
+      "question": "复特征值的实化解有几个？",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "无穷"
+      ],
+      "answer": 1,
+      "explain": "实部虚部各一。"
+    },
+    {
+      "id": "q09",
+      "chapterId": "ch04",
+      "type": "single",
+      "question": "e^(At) 的拉普拉斯表示？",
+      "options": [
+        "L[(sI−A)]",
+        "L⁻¹[(sI−A)⁻¹]",
+        "L[(sI−A)⁻¹]",
+        "det(sI−A)"
+      ],
+      "answer": 1,
+      "explain": "矩阵版本变换。"
+    },
+    {
+      "id": "q10",
+      "chapterId": "ch05",
+      "type": "single",
+      "question": "稳定性分析第一步？",
+      "options": [
+        "算雅可比",
+        "解 f(x)=0",
+        "找 V",
+        "画相图"
+      ],
+      "answer": 1,
+      "explain": "先找平衡点。"
+    },
+    {
+      "id": "q11",
+      "chapterId": "ch05",
+      "type": "single",
+      "question": "李雅普诺夫方程的形式？",
+      "options": [
+        "AP+PA=−Q",
+        "AᵀP+PA=−Q",
+        "AᵀPA=−Q",
+        "AP=−Q"
+      ],
+      "answer": 1,
+      "explain": "二次型求导得到。"
+    },
+    {
+      "id": "q12",
+      "chapterId": "ch06",
+      "type": "single",
+      "question": "u_x+2u_y=0 的通解？",
+      "options": [
+        "F(x−2y)",
+        "F(x−y/2)",
+        "F(2x−y)",
+        "F(x+y)"
+      ],
+      "answer": 1,
+      "explain": "特征线 x−y/2=const。"
+    },
+    {
+      "id": "q13",
+      "chapterId": "ch06",
+      "type": "single",
+      "question": "格林函数的物理意义？",
+      "options": [
+        "势能",
+        "单位点源响应",
+        "基解",
+        "特征函数"
+      ],
+      "answer": 1,
+      "explain": "叠加得一般解。"
+    },
+    {
+      "id": "q14",
+      "chapterId": "ch07",
+      "type": "single",
+      "question": "只证存在该用哪条定理？",
+      "options": [
+        "皮卡",
+        "皮亚诺",
+        "柯西",
+        "刘维尔"
+      ],
+      "answer": 1,
+      "explain": "连续即可，不必李普希茨。"
+    },
+    {
+      "id": "q15",
+      "chapterId": "ch07",
+      "type": "single",
+      "question": "证明题最常见失分点？",
+      "options": [
+        "算错",
+        "没验条件",
+        "字太丑",
+        "没画图"
+      ],
+      "answer": 1,
+      "explain": "引用定理不验条件。"
+    },
+    {
+      "id": "q16",
+      "chapterId": "ch08",
+      "type": "single",
+      "question": "数值解能替代相图分析吗？",
+      "options": [
+        "能",
+        "不能",
+        "部分能",
+        "视情况"
+      ],
+      "answer": 1,
+      "explain": "只给单条轨线。"
+    },
+    {
+      "id": "q17",
+      "chapterId": "ch08",
+      "type": "single",
+      "question": "四重校验的顺序？",
+      "options": [
+        "手算-符号-数值-画图",
+        "画图-手算-数值",
+        "数值-手算",
+        "符号-数值"
+      ],
+      "answer": 0,
+      "explain": "从手算出发逐层验证。"
+    },
+    {
+      "id": "q18",
+      "chapterId": "__all",
+      "type": "single",
+      "question": "这本辅导书的核心价值是？",
+      "options": [
+        "补充理论",
+        "把定理变成考场动作",
+        "增加例题量",
+        "介绍软件"
+      ],
+      "answer": 1,
+      "explain": "每章按解题指导组织。"
+    },
+    {
+      "id": "q19",
+      "chapterId": "__all",
+      "type": "single",
+      "question": "线性方程组解题的核心对象是？",
+      "options": [
+        "特征值",
+        "基解矩阵",
+        "若尔当形",
+        "行列式"
+      ],
+      "answer": 1,
+      "explain": "所有构造都为了它。"
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "f01",
+      "chapterId": "ch01",
+      "front": "判断顺序第一格？",
+      "back": "可分离。",
+      "tags": [
+        "流程"
+      ]
+    },
+    {
+      "id": "f02",
+      "chapterId": "ch01",
+      "front": "积分因子 μ 的判据？",
+      "back": "(P_y−Q_x)/Q 只含 x。",
+      "tags": [
+        "公式"
+      ]
+    },
+    {
+      "id": "f03",
+      "chapterId": "ch01",
+      "front": "建模最后一步？",
+      "back": "回代检验量纲与长期行为。",
+      "tags": [
+        "流程"
+      ]
+    },
+    {
+      "id": "f04",
+      "chapterId": "ch02",
+      "front": "李普希茨三手法？",
+      "back": "偏导有界、中值、直接估。",
+      "tags": [
+        "方法"
+      ]
+    },
+    {
+      "id": "f05",
+      "chapterId": "ch02",
+      "front": "非唯一怎么证？",
+      "back": "比值发散 + 构造延迟解。",
+      "tags": [
+        "方法"
+      ]
+    },
+    {
+      "id": "f06",
+      "chapterId": "ch03",
+      "front": "共振乘 x 几次？",
+      "back": "重数。",
+      "tags": [
+        "规则"
+      ]
+    },
+    {
+      "id": "f07",
+      "chapterId": "ch03",
+      "front": "降阶的前提？",
+      "back": "已知一个特解。",
+      "tags": [
+        "方法"
+      ]
+    },
+    {
+      "id": "f08",
+      "chapterId": "ch04",
+      "front": "矩阵指数三条算法？",
+      "back": "特征向量、若尔当、拉普拉斯。",
+      "tags": [
+        "方法"
+      ]
+    },
+    {
+      "id": "f09",
+      "chapterId": "ch04",
+      "front": "非齐次常向量特解？",
+      "back": "−A⁻¹b。",
+      "tags": [
+        "公式"
+      ]
+    },
+    {
+      "id": "f10",
+      "chapterId": "ch05",
+      "front": "稳定性五步？",
+      "back": "平衡点、J、特征值、判符号、临界补 V。",
+      "tags": [
+        "流程"
+      ]
+    },
+    {
+      "id": "f11",
+      "chapterId": "ch05",
+      "front": "李雅普诺夫方程？",
+      "back": "AᵀP+PA=−Q。",
+      "tags": [
+        "公式"
+      ]
+    },
+    {
+      "id": "f12",
+      "chapterId": "ch06",
+      "front": "齐次 PDE 通解？",
+      "back": "u=F(Φ)。",
+      "tags": [
+        "公式"
+      ]
+    },
+    {
+      "id": "f13",
+      "chapterId": "ch06",
+      "front": "边值可解判据？",
+      "back": "弗雷德霍姆二择一。",
+      "tags": [
+        "定理"
+      ]
+    },
+    {
+      "id": "f14",
+      "chapterId": "ch07",
+      "front": "证明四模板？",
+      "back": "存在唯一、稳定、解性质、边值。",
+      "tags": [
+        "方法"
+      ]
+    },
+    {
+      "id": "f15",
+      "chapterId": "ch08",
+      "front": "软件的作用？",
+      "back": "验证与画图，不替代证明。",
+      "tags": [
+        "理解"
+      ]
+    }
+  ],
+  "companion": "zhusiming-guide学习伴侣.html"
+}
